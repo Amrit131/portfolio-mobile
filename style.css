@@ -1,3 +1,43 @@
-.header {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+
+#toolbar {
+  background-color: #3C3A39;
+  width: 357px;
+  height: 44px;
 }
+
+#top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#heading {
+  font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 10px 10px 10px 10px;
+}
+
+#button-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;    
+}
+
+#button {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+
