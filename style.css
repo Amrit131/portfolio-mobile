@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
 
 #toolbar {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   width: 357px;
   height: 44px;
 }
@@ -22,7 +22,7 @@
   line-height: 24px;
   letter-spacing: 1.5px;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #fff;
   margin: 10px 10px 10px 10px;
 }
 
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;    
+  padding: 8px;
 }
 
 #button {
@@ -39,5 +39,3 @@
   padding-top: 3px;
   padding-right: 5px;
 }
-
-
