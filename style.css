@@ -1,3 +1,110 @@
-.header {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+
+#toolbar {
+  background-color: #3c3a39;
+  width: 375px;
+  height: 44px;
+  margin: 0;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#heading {
+  font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px 10px 10px 10px;
+}
+
+#button-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+#button {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+  padding-right: 5px;
+}
+
+#content {
+  width: 375px;
+  height: 590px;
+  background: #1c1a19;
+  margin: 0;
+  position: relative;
+}
+
+#container-1 {
+  margin: 0;
+}
+
+#headline {
+  width: 327px;
+  height: 124px;
+  margin: 0 0 0 20px;
+  font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  padding-top: 60px;
+}
+
+#title-line {
+  width: 327px;
+  height: 27px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#para {
+  width: 327px;
+  height: 123px;
+  margin-left: 20px;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#socials-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#bg-img {
+  width: 140px;
+  height: 340px;
+  position: absolute;
+  left: 62.67%;
+  top: 50.1%;
+  bottom: 1.8%;
 }
