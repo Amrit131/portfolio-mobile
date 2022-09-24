@@ -49,7 +49,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 500px 950px 1000px;
+  grid-template-rows: 500px 950px 2600px 1500px;
   width: 375px;
   background: #1c1a19;
   margin: 0;
@@ -114,7 +114,7 @@ body {
   height: 340px;
   position: absolute;
   left: 62.67%;
-  top: 16.4%;
+  top: 6.9%;
   bottom: 1.8%;
 }
 
@@ -226,4 +226,67 @@ body {
 
 #projects-container {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  gap: 30px;
 }
+
+.projects {
+  width: 327px;
+  height: 386px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(image_processing20200427-30692-7af91d.png);
+  background-image: url('images/project-bg.png');
+}
+
+.header-4 {
+  width: 295px;
+  height: 81px;
+  font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 24px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.project-details {
+  width: 295px;
+  height: 87px;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  padding-left: 24px;
+  margin-top: 10px;
+}
+
+.btn-2 button {
+  background: rgba(255, 255, 255, 0.24);
+  width: auto;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  height: 32px;
+}
+
+.btn-3 {
+  width: 327px;
+  height: 48px;
+  margin-top: 25px;
+  border: none;
+  color: #fff;
+  background-color: #ff6b00;
+}
+
