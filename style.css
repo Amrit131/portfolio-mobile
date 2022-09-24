@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  background-color: rgb(241, 241, 241);
+}
 
 #toolbar {
   display: flex;
@@ -45,16 +48,17 @@
 }
 
 #content {
-  display: flex;
+  display: grid;
+  grid-template-rows: 500px 950px 1000px;
   width: 375px;
-  height: 590px;
   background: #1c1a19;
   margin: 0;
   position: relative;
+  box-shadow: 10px 14px 20px 1px #8a8989;
 }
 
 #container-1 {
-  margin: 0;
+  margin: 0; 
 }
 
 #headline {
@@ -110,10 +114,116 @@
   height: 340px;
   position: absolute;
   left: 62.67%;
-  top: 50.1%;
+  top: 16.4%;
   bottom: 1.8%;
 }
 
 #container-2 {
   list-style: none;
+}
+
+.works {
+  margin-top: 72px;
+  width: 375px;
+  background-color: #fff;
+}
+
+#header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 327px;
+  height: 83px;
+  margin-top: 60px;
+  font-size: 40px;
+  font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 52px;
+  padding-top: 70px;
+  padding-left: 18px;
+}
+
+#line {
+  width: 327px;
+  margin-bottom: 50px;
+}
+
+#gymfit-container {
+  width: 327px;
+  height: 237px;
+}
+
+#gymfit-img {
+  width: 327px;
+  height: 237px;
+  padding-left: 24px;
+}
+
+#header-3 {
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  padding-left: 24px;
+}
+
+#stories-para {
+  width: 327px;
+  height: 147px;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  font-style: normal;
+  padding-left: 24px;
+}
+
+.language {
+  width: 297px;
+  height: 40px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 24px;
+  gap: 12px;
+  text-align: center;
+}
+
+.btn button {
+  width: auto;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  background-color: #fff;
+  border: 1px solid #8993A4;
+  height: 32px;
+}
+
+#btn-container {
+  width: 124px;
+  height: 48px;
+  padding-left: 24px;
+  margin: 0;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background-color: #ff6b00;
+}
+
+#projects-container {
+  background-color: #fff;
 }
