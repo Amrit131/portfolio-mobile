@@ -293,6 +293,7 @@ body {
 #about-container {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 #header-5 {
@@ -342,10 +343,6 @@ body {
   padding-left: 20px;
 }
 
-#about-container {
-  position: relative;
-}
-
 #frame-bg {
   position: absolute;
   left: 57.69%;
@@ -382,7 +379,7 @@ body {
 .languages {
   width: 254px;
   height: 24px;
-  font-family: 'Inter', sans-serif ,'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
