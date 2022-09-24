@@ -49,7 +49,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 500px 950px 2600px 2000px;
+  grid-template-rows: 500px 950px 2600px 2200px;
   width: 375px;
   background: #1c1a19;
   margin: 0;
@@ -114,7 +114,7 @@ body {
   height: 340px;
   position: absolute;
   left: 62.67%;
-  top: 4.6%;
+  top: 4.4%;
   bottom: 1.8%;
 }
 
@@ -290,6 +290,11 @@ body {
   background-color: #ff6b00;
 }
 
+#about-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #header-5 {
   width: 327px;
   height: 79px;
@@ -325,7 +330,7 @@ body {
   width: 161px;
   height: 48px;
   background: #ff6b00;
-  font-family: 'Inter',sans-serif,'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -345,7 +350,7 @@ body {
   position: absolute;
   left: 57.69%;
   right: 46.55%;
-  top: 21.01%;
+  top: 19.01%;
   bottom: 44.13%;
 }
 
@@ -366,7 +371,7 @@ body {
 }
 
 .header-6 {
-  font-family: 'InaiMathi', 'Inter',sans-serif,'Times New Roman', Times, serif;
+  font-family: 'InaiMathi', 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -377,7 +382,7 @@ body {
 .languages {
   width: 254px;
   height: 24px;
-  font-family: 'Inter',sans-serif,'Times New Roman', Times, serif;
+  font-family: 'Inter', sans-serif ,'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
