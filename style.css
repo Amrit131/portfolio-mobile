@@ -49,7 +49,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 500px 950px 2600px 1500px;
+  grid-template-rows: 500px 950px 2600px 2000px;
   width: 375px;
   background: #1c1a19;
   margin: 0;
@@ -114,7 +114,7 @@ body {
   height: 340px;
   position: absolute;
   left: 62.67%;
-  top: 6.9%;
+  top: 4.6%;
   bottom: 1.8%;
 }
 
@@ -290,3 +290,102 @@ body {
   background-color: #ff6b00;
 }
 
+#header-5 {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  display: flex;
+  padding-left: 30px;
+  color: #ff6b00;
+  margin-bottom: 0;
+}
+
+#about-para {
+  width: 327px;
+  height: 148px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+#resume-btn button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px;
+  gap: 10px;
+  width: 161px;
+  height: 48px;
+  background: #ff6b00;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#resume-btn {
+  padding-left: 20px;
+}
+
+#about-container {
+  position: relative;
+}
+
+#frame-bg {
+  position: absolute;
+  left: 57.69%;
+  right: 46.55%;
+  top: 21.00%;
+  bottom: 44.13%;
+}
+
+#line-2 {
+  margin-top: 250px;
+  width: 330px;
+}
+
+.language-header {
+  display: flex;
+  flex-direction: row;
+  width: 327px;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding-left: 15px;
+}
+
+.header-6 {
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.languages {
+  width: 254px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+}
