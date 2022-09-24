@@ -14,6 +14,14 @@
 
 ![live](https://user-images.githubusercontent.com/87594100/191726785-f64c4290-40a4-4ca6-8914-df6d5bdfc9cf.png)
 
+![works](https://user-images.githubusercontent.com/87594100/192111035-ce120ac5-4bd2-4429-9220-74facaa3ab8f.png)
+
+![Projects](https://user-images.githubusercontent.com/87594100/192110918-52300f8a-7e7e-4398-bd2c-43c8d3dba7f4.png)
+
+![About me](https://user-images.githubusercontent.com/87594100/192110921-2f436999-8713-4160-85f5-eca250256caa.png)
+
+![languages](https://user-images.githubusercontent.com/87594100/192110953-84ed04df-1d72-430e-82d7-2a0e92058d56.png)
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
