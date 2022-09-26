@@ -182,11 +182,11 @@ body {
 }
 
 .language {
-  float: left;
   width: 297px;
   height: 40px;
   margin: 0;
   list-style: none;
+  float: left;
   padding-left: 24px;
   gap: 12px;
   text-align: center;
