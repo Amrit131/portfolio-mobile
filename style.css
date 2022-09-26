@@ -182,19 +182,19 @@ body {
 }
 
 .language {
+  float: left;
   width: 297px;
   height: 40px;
   margin: 0;
   list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   padding-left: 24px;
   gap: 12px;
   text-align: center;
 }
 
 .btn button {
+  float: left;
+  margin-left: 10px;
   width: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 500;
@@ -293,6 +293,8 @@ body {
 }
 
 .btn-2 button {
+  float: left;
+  margin-left: 10px;
   background: rgba(255, 255, 255, 0.24);
   width: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
