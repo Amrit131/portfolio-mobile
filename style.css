@@ -562,6 +562,30 @@ body {
   letter-spacing: 0.03em;
 }
 
+#btn-form:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+#btn-form:active {
+  color: #fff;
+  border: none;
+  background-color: #ff6b00;
+  width: 141px;
+  height: 50px;
+  left: 407px;
+  top: calc(50% - 48px / 2 + 46.5px);
+}
+
+#btn-form:disabled {
+  width: 141px;
+  height: 48px;
+  left: 564px;
+  top: calc(50% - 48px / 2 + 46.5px);
+  background: #f4f1f0;
+}
+
 .social-links {
   width: 375px;
   height: 72px;
@@ -583,4 +607,3 @@ body {
   list-style: none;
   padding-left: 80px;
 }
- 
