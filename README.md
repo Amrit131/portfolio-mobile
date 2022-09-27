@@ -23,6 +23,11 @@
 
 ![languages](https://user-images.githubusercontent.com/87594100/192110953-84ed04df-1d72-430e-82d7-2a0e92058d56.png)
 
+![Contact](https://user-images.githubusercontent.com/87594100/192512479-012c7ddc-9b57-4493-b06a-232b7c7ef45f.PNG)
+
+### The message that I sent to Formspree
+![Message](https://user-images.githubusercontent.com/87594100/192512528-228b5d6a-0f4a-4f8b-8bf9-da8aca7b428d.PNG)
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
