@@ -49,7 +49,7 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 500px 960px 2600px 2200px;
+  grid-template-rows: 500px 960px 2600px 2200px 1000px;
   width: 375px;
   background: #1c1a19;
   margin: 0;
@@ -114,7 +114,7 @@ body {
   height: 340px;
   position: absolute;
   left: 62.67%;
-  top: 4.4%;
+  top: 3.8%;
   bottom: 1.8%;
 }
 
@@ -485,3 +485,102 @@ body {
   margin-left: 50px;
   margin-right: 10px;
 }
+
+.form-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-heading {
+  width: 327px;
+  height: 216px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 150px;
+}
+
+.header-7 {
+  font-family: "Inter", sans-serif, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form-container {
+  width: 327px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input {
+  width: 327px;
+  height: 48px;
+  border: none;
+  color: #979493;
+  border-bottom: solid 1px #dbd8d7;
+}
+
+#msg {
+  width: 327px;
+  height: 114px;
+  background: #fbf8f7;
+  border: none;
+}
+
+#btn-form {
+  width: 131px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding-left: 12px;
+  margin-left: 100px;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.social-links {
+  width: 375px;
+  height: 72px;
+  margin-top: 150px;
+}
+
+.line-2 {
+  color: #dfe1e6;
+  height: 1px;
+}
+
+.socials-container-1 {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding-left: 80px;
+}
+ 
