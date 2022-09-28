@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(241, 241, 241);
 }
 
@@ -634,7 +636,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #3c3a39;
-    width: 100%;
+    width: 1400px;
     height: 72px;
   }
   
@@ -677,13 +679,14 @@ body {
 
   #content {
     display: grid;
+    grid-template-rows: 900px 750px 2200px 2100px 1000px;
     width: 100%;
-    background: #1c1a19;
   }
 
   #container-1 {
     width: 100%;
-    height: 768px;
+    height: 100vh;
+    background: #1c1a19;
     display: flex;
   }
 
@@ -691,7 +694,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    gap: 5%;
+    gap: 60px;
     width: 50%;
     height: inherit;
   }
@@ -704,13 +707,11 @@ body {
   }
 
   #first-content {
-    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 192px 0px;
-    gap: 24px;
-    margin-top: 0;
+    row-gap: 70px;
+    margin-top: -65px;
   }
 
   #headline {
@@ -737,14 +738,19 @@ body {
   }
   
   #para {
-    width: 566px;
+    width: 520px;
     height: 123px;
+    margin-top: -45px;
     font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     color: #f4f5f7;
+  }
+
+  #para br {
+    content:' ';
   }
 
   #bg-container {
@@ -757,5 +763,151 @@ body {
 
   #bg-img {
     display: none;
+  }
+
+  .works {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  #header2-container {
+    display: flex;
+    width: 1400px;
+    padding-left: 70px;
+    margin-bottom: 70px;
+  }
+  
+  #header-2 {
+    width: 460px;
+    height: 52px;
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 52px;
+    padding-top: 70px;
+    padding-left: 18px;
+  }
+  
+  #line {
+    width: 750px;
+    height: 1px;
+    margin-top: 133px;
+    margin-left: -30px;
+    color: #212121;
+  }
+  
+  #gymfit-container {
+    width: 1400px;
+    height: 448px;
+    display: flex;
+    padding-left: 126px;
+  }
+  
+  #gymfit-img {
+    width: 684px;
+    height: 448px;
+  }
+
+  #post-container {
+    width: 448px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #header-3 {
+    width: 448px;
+    height: 48px;
+    font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  
+  #stories-para {
+    width: 480px;
+    height: 147px;
+    font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+    font-style: normal;
+    padding-left: 24px;
+    margin-top: 15px;
+  }
+
+  .language {
+    width: 297px;
+    height: 40px;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 24px;
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .btn button {
+    width: auto;
+    height: 40px;
+    font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+    background-color: #fff;
+    border: 1px solid #8993a4;
+    padding: 10px;
+  }
+  
+  #btn-container {
+    width: 440px;
+    height: 78px;
+    padding-left: 24px;
+    margin-top: 25px;
+  }
+
+  #btn {
+    width: 100px;
+    height: 40px;
+    font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+    margin-top: 10px;
+  }
+  
+  #btn:hover {
+    color: #f55800;
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+  }
+  
+  #btn:active {
+    color: #fff;
+    border: none;
+    background-color: #ff6b00;
+    width: 110px;
+    height: 48px;
+    left: 407px;
+    top: calc(50% - 48px / 2 + 46.5px);
+  }
+  
+  #btn:disabled {
+    width: 100px;
+    height: 40px;
+    left: 564px;
+    top: calc(50% - 48px / 2 + 46.5px);
+    background: #f4f1f0;
   }
 }
