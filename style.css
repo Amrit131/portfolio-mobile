@@ -60,6 +60,7 @@ body {
   background: #1c1a19;
   margin: 0;
   position: relative;
+  box-shadow: 10px 14px 20px 1px #8a8989;
 }
 
 #container-1 {
@@ -627,15 +628,6 @@ body {
     box-sizing: border-box;
   }
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
-  body {
-    width: 100%;
-    background-color: #172b4d;
-  }
-
   #button-holder {
     display: none;
   }
@@ -645,7 +637,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #3c3a39;
-    width: 100%;
+    width: 1520px;
     height: 72px;
   }
 
@@ -692,12 +684,12 @@ body {
   #content {
     display: grid;
     grid-template-rows: 900px 750px 1100px 1400px 1000px;
-    width: 100%;
+    width: 1520px;
   }
 
   #container-1 {
-    width: 100%;
-    height: inherit;
+    width: 1520px;
+    height: 100vh;
     background: #1c1a19;
     display: flex;
   }
@@ -727,7 +719,7 @@ body {
   }
 
   #headline {
-    width: 60%;
+    width: 566px;
     height: 160px;
     font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -766,7 +758,7 @@ body {
   }
 
   #bg-container {
-    width: 80%;
+    width: 50%;
     height: inherit;
     background-image: url(images/bg-1.png);
     background-repeat: no-repeat;
@@ -778,7 +770,7 @@ body {
   }
 
   .works {
-    width: 100%;
+    width: 1520px;
     margin: 0;
     background-color: #fff;
   }
@@ -924,13 +916,13 @@ body {
   }
 
   #projects-container {
-    width: 100%;
+    width: 1520px;
     height: inherit;
     background-color: #fff;
   }
 
   .desktop-projects {
-    width: 100%;
+    width: 1520px;
     display: grid;
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: 460px;
@@ -978,7 +970,8 @@ body {
   .image .imgThumb span input[type="button"]:hover {
     color: #ff6b00;
     background-color: #fff5e1;
-    border: 2px solid #f55800;
+    border: 2px solid #F55800;
+
   }
 
   .image .imgThumb span input[type="button"]:active {
@@ -989,7 +982,7 @@ body {
     height: 58px;
   }
 
-  .image .imgThumb span input[type="button"]:disabled {
+  .image .imgThumb span input[type="button"]:disabled{
     background: #f4f1f0;
     width: 370px;
     height: 58px;
@@ -1150,7 +1143,7 @@ body {
   }
 
   #about-container {
-    width: 100%;
+    width: 1520px;
     height: inherit;
     position: relative;
   }
@@ -1299,7 +1292,7 @@ body {
   }
 
   .form-section {
-    width: 100%;
+    width: 1520px;
     height: inherit;
   }
 
@@ -1413,7 +1406,7 @@ body {
   }
 
   .social-links {
-    width: 100%;
+    width: 1520px;
     height: 20px;
     margin-top: 200px;
   }
@@ -1424,7 +1417,7 @@ body {
   }
 
   .socials-container-1 {
-    width: 100%;
+    width: 1520px;
     height: 70px;
     padding-right: 120px;
   }
