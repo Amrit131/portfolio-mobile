@@ -978,8 +978,7 @@ body {
   .image .imgThumb span input[type="button"]:hover {
     color: #ff6b00;
     background-color: #fff5e1;
-    border: 2px solid #F55800;
-
+    border: 2px solid #f55800;
   }
 
   .image .imgThumb span input[type="button"]:active {
@@ -990,7 +989,7 @@ body {
     height: 58px;
   }
 
-  .image .imgThumb span input[type="button"]:disabled{
+  .image .imgThumb span input[type="button"]:disabled {
     background: #f4f1f0;
     width: 370px;
     height: 58px;
