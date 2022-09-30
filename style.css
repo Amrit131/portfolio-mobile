@@ -629,7 +629,7 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   #toolbar {
     width: 100%;
     height: 72px;
@@ -1348,6 +1348,7 @@ body {
     display: flex;
     margin-bottom: 170px;
   }
+
   .header-7 {
     font-family: "Inter", sans-serif, 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -1380,7 +1381,7 @@ body {
     width: 91.5%;
     height: 50px;
     border: none;
-    color: #FBF8F7;
+    color: #fBf8f7;
     border-bottom: solid 1px #dbd8d7;
   }
 
