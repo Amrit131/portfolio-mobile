@@ -721,7 +721,7 @@ body {
   }
 
   #headline {
-    width: 60%;
+    width: 70%;
     font-family: "Crete Round", sans-serif;
     font-weight: 400;
     font-size: 72px;
@@ -1343,7 +1343,7 @@ body {
   }
 
   .form-heading-1 {
-    width: 32%;
+    width: 33%;
     height: 256px;
     display: flex;
     margin-bottom: 170px;
