@@ -186,14 +186,12 @@ body {
   height: 40px;
   margin: 0;
   list-style: none;
-  float: left;
   padding-left: 24px;
   gap: 12px;
   text-align: center;
 }
 
 .btn button {
-  float: left;
   margin-left: 10px;
   width: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
@@ -293,7 +291,6 @@ body {
 }
 
 .btn-2 button {
-  float: left;
   margin-left: 10px;
   background: rgba(255, 255, 255, 0.24);
   width: auto;
