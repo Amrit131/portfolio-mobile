@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @media screen and (max-width: 600px) and (min-width: 120px) {
-    body {
+  body {
     margin: 0;
     padding: 0;
     background-color: rgb(241, 241, 241);
@@ -130,7 +130,7 @@
     left: 61.5%;
   }
 
-  #container-2 { 
+  #container-2 {
     list-style: none;
   }
 
@@ -408,6 +408,7 @@
   #resume-btn {
     width: 87%;
     height: 48px;
+    padding-left: 20px;
   }
 
   #resume-btn button {
@@ -449,10 +450,6 @@
     left: 564px;
     top: calc(50% - 48px / 2 + 46.5px);
     background: #f4f1f0;
-  }
-
-  #resume-btn {
-    padding-left: 20px;
   }
 
   #line-2 {
