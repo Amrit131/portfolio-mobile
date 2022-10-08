@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-body {
+@media screen and (max-width: 592px) and (min-width: 120px) {
+  body {
+  margin: 0;
+  padding: 0;
   background-color: rgb(241, 241, 241);
+  width: 100%;
 }
 
 #toolbar {
@@ -10,7 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #3c3a39;
-  width: 375px;
+  width: 100%;
   height: 44px;
   margin: 0;
 }
@@ -49,33 +53,36 @@ body {
 
 #content {
   display: grid;
-  grid-template-rows: 500px 960px 2600px 2100px 1000px;
-  width: 375px;
-  background: #1c1a19;
+  grid-template-rows: 600px 1050px 2700px 2200px 1000px;
+  width: 100%;
+  background: #fff;
   margin: 0;
-  position: relative;
   box-shadow: 10px 14px 20px 1px #8a8989;
 }
 
 #container-1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #1c1a19;
   margin: 0;
 }
 
 #headline {
-  width: 327px;
-  height: 124px;
+  width: 86%;
+  height: auto;
   margin: 0 0 0 20px;
   font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   color: #ff6b00;
-  padding-top: 60px;
+  padding-top: 11.8%;
 }
 
 #title-line {
-  width: 327px;
-  height: 27px;
+  width: 86%;
+  height: auto;
   margin-top: 10px;
   margin-left: 20px;
   font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
@@ -89,8 +96,8 @@ body {
 }
 
 #para {
-  width: 327px;
-  height: 123px;
+  width: 87.4%;
+  height: auto;
   margin-left: 20px;
   margin-top: 0;
   font-family: 'Poppins', sans-serif, 'Times New Roman', Times, serif;
@@ -101,120 +108,130 @@ body {
   color: #fff;
 }
 
+#para br {
+  content: " ";
+}
+
 .socials-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 25px;
+  padding-left: 6.8%;
   list-style: none;
+  width: 93.5%;
+  height: auto;
 }
 
 #bg-img {
-  width: 140px;
-  height: 340px;
+  width: 38%;
+  height: 322px;
   position: absolute;
-  left: 62.67%;
-  top: 3.8%;
-  bottom: 1.8%;
+  top: 45%;
+  left: 61.5%;
 }
 
-#container-2 {
+#container-2 { 
   list-style: none;
 }
 
 .works {
   margin-top: 72px;
-  width: 375px;
+  width: 100%;
   background-color: #fff;
+}
+
+#header2-container {
+  width: 100%;
+  height: auto;
 }
 
 #header-2 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 327px;
-  height: 83px;
-  margin-top: 60px;
+  justify-content: flex-start;
+  width: 84%;
+  height: auto;
+  margin: 20% 0 5% 0;
   font-size: 40px;
   font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
   line-height: 52px;
   padding-top: 70px;
-  padding-left: 18px;
+  padding-left: 5%;
 }
 
 #line {
-  width: 327px;
-  margin-bottom: 50px;
+  width: 84%;
+  margin: 0 0 10% 5%;
 }
 
 #gymfit-container {
-  width: 327px;
-  height: 237px;
+  width: 87.4%;
+  height: auto;
 }
 
 #gymfit-img {
-  width: 327px;
-  height: 237px;
-  padding-left: 24px;
+  width: 92.6%;
+  height: auto;
+  padding-left: 5%;
 }
 
 #header-3 {
-  width: 327px;
-  height: 36px;
+  width: 92.6%;
+  height: auto;
   font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
-  padding-left: 24px;
+  padding-left: 5%;
 }
 
 #stories-para {
-  width: 327px;
-  height: 147px;
+  width: 92.6%;
+  height: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
   font-style: normal;
-  padding-left: 24px;
+  padding-left: 5%;
 }
 
 .language {
-  width: 297px;
+  width: 92.6%;
   height: 40px;
   margin: 0;
   list-style: none;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 24px;
+  padding-left: 5%;
   gap: 12px;
   text-align: center;
 }
 
 .btn button {
-  width: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 500;
   font-style: normal;
   line-height: 20px;
   background-color: #fff;
   border: 1px solid #8993a4;
-  height: 32px;
+  height: auto;
 }
 
 #btn-container {
-  width: 124px;
-  height: 48px;
-  padding-left: 24px;
+  width: 34%;
+  height: auto;
+  padding-left: 5%;
   margin: 0;
 }
 
-#btn {
+ #btn {
   width: 100px;
   height: 40px;
+  margin: 0;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 700;
   font-style: normal;
@@ -253,20 +270,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 12px;
+  width: 100%;
+  padding-top: 5%;
   gap: 30px;
 }
 
 .projects {
-  width: 327px;
-  height: 386px;
+  width: 86.5%;
+  height: auto;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(image_processing20200427-30692-7af91d.png);
   background-image: url('images/project-bg.png');
 }
 
 .header-4 {
-  width: 295px;
-  height: 81px;
+  width: 83%;
+  height: auto;
   font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
@@ -274,21 +292,21 @@ body {
   line-height: 44px;
   color: #fff;
   padding-top: 40px;
-  padding-left: 24px;
+  padding-left: 5%;
   margin-top: 40px;
   margin-bottom: 0;
 }
 
 .project-details {
-  width: 295px;
-  height: 87px;
+  width: 83%;
+  height: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  padding-left: 24px;
+  padding-left: 5%;
   margin-top: 10px;
 }
 
@@ -305,8 +323,13 @@ body {
   height: 32px;
 }
 
+.btn-container {
+  width: 100%;
+  height: auto;
+}
+
 .btn-3 {
-  width: 327px;
+  width: 100%;
   height: 48px;
   margin-top: 25px;
   border: none;
@@ -324,7 +347,7 @@ body {
   color: #fff;
   border: none;
   background-color: #ff6b00;
-  width: 327px;
+  width: 100.1%;
   height: 58px;
   left: 407px;
   top: calc(50% - 48px / 2 + 46.5px);
@@ -341,33 +364,49 @@ body {
 #about-container {
   display: flex;
   flex-direction: column;
-  position: relative;
+  background: #1c1a19;
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("images/Framebg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 #header-5 {
-  width: 327px;
-  height: 79px;
+  width: 87%;
+  height: auto;
   font-family: 'Crete Round', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   display: flex;
-  padding-left: 20px;
+  padding-left: 5%;
   color: #ff6b00;
   margin-bottom: 0;
+  margin-top: 80px;
 }
 
 #about-para {
-  width: 327px;
-  height: 148px;
+  width: 87%;
+  height: auto;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 20px;
+  padding-left: 5%;
   color: #fff;
+}
+
+#resume-btn {
+  width: 87%;
+  height: 48px;
 }
 
 #resume-btn button {
@@ -376,7 +415,7 @@ body {
   align-items: center;
   padding: 25px;
   gap: 10px;
-  width: 161px;
+  width: 45.5%;
   height: 48px;
   background: #ff6b00;
   font-family: 'Inter', sans-serif, 'Times New Roman', Times, serif;
@@ -415,17 +454,17 @@ body {
   padding-left: 20px;
 }
 
-#frame-bg {
+/* #frame-bg {
   position: absolute;
-  left: 57.69%;
+  left: 57%;
   right: 46.55%;
   top: 19.01%;
   bottom: 44.13%;
-}
+} */
 
 #line-2 {
   margin-top: 250px;
-  width: 330px;
+  width: 90%;
 }
 
 .language-header {
@@ -485,7 +524,7 @@ body {
   margin-left: 50px;
   margin-right: 10px;
 }
-
+/*
 .form-section {
   background-color: #fff;
   display: flex;
@@ -610,4 +649,6 @@ body {
   gap: 24px;
   list-style: none;
   padding-left: 80px;
+} */
 }
+
