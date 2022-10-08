@@ -959,6 +959,7 @@
   }
 
   #btn:hover {
+    transition: 0.6s;
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
@@ -1068,6 +1069,7 @@
     color: #ff6b00;
     background-color: #fff5e1;
     border: 2px solid #f55800;
+    transition: 0.6s;
   }
 
   .image .imgThumb span input[type="button"]:active {
@@ -1327,6 +1329,7 @@
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
+    transition: 0.6s;
   }
 
   #resume-btn button:active {
@@ -1518,6 +1521,7 @@
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
+    transition: 0.6s;
   }
 
   #btn-form:active {
