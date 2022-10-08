@@ -701,6 +701,11 @@
     margin-left: 1%;
   }
 
+  #heading:hover {
+    transition: 1s;
+    transform: rotate(360deg);
+  }
+
   #top {
     width: 75%;
     display: flex;
@@ -954,6 +959,7 @@
   }
 
   #btn:hover {
+    transition: 0.6s;
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
@@ -1030,13 +1036,15 @@
 
   #printing:hover {
     border: solid 2px black;
+    transition: 1s;
+    transform: scale(1.02);
   }
 
   .image .imgThumb span {
     width: 100%;
     display: none;
     position: absolute;
-    top: 85%;
+    top: 85.8%;
   }
 
   .image .imgThumb:hover span {
@@ -1061,6 +1069,7 @@
     color: #ff6b00;
     background-color: #fff5e1;
     border: 2px solid #f55800;
+    transition: 0.6s;
   }
 
   .image .imgThumb span input[type="button"]:active {
@@ -1086,12 +1095,22 @@
     background-size: 100% 100%;
   }
 
+  .other-projects:hover {
+    transition: 0.6s;
+    transform: scale(1.05);
+  }
+
   .other-projects-1 {
     width: 28%;
     height: 392px;
     background-image: url('images/other-projects-1.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+
+  .other-projects-1:hover {
+    transition: 0.6s;
+    transform: scale(1.05);
   }
 
   .other-projects-2 {
@@ -1101,6 +1120,11 @@
     background-image: url('images/other-projects-2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+
+  .other-projects-2:hover {
+    transition: 0.6s;
+    transform: scale(1.05);
   }
 
   .heading-4 {
@@ -1305,6 +1329,7 @@
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
+    transition: 0.6s;
   }
 
   #resume-btn button:active {
@@ -1496,6 +1521,7 @@
     color: #f55800;
     background-color: #fff5e1;
     border: 1px solid #f55800;
+    transition: 0.6s;
   }
 
   #btn-form:active {
