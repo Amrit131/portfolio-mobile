@@ -881,6 +881,11 @@
     padding-left: 5%;
   }
 
+  #gymfit-img:hover {
+    transition: 1s;
+    transform: scale(1.02);
+  }
+
   #post-container {
     width: 50%;
     height: 100%;
