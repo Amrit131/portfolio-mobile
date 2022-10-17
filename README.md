@@ -51,6 +51,13 @@ Anyone can use this project by giving proper credit.
 - LinkedIn: https://www.linkedin.com/in/mishra-amrit/
 
 
+👤 Joseph David
+
+- GitHub: https://github.com/jodavid444
+- Twitter: https://twitter.com/jodavid444dave
+
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
