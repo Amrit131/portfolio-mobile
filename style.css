@@ -10,13 +10,135 @@
   }
 
   #toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3c3a39;
+    display: none;
+  }
+
+  .navbar {
     width: 100%;
-    height: 44px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #333;
+    color: #fff;
+  }
+
+  .brand-title {
+    font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .brand-title a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .brand-title.active {
+    display: none;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    height: 100vh;
+    transition: 5s ease-in;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .navbar-links ul {
+    margin-top: 80px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .navbar-links ul li {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: solid 1px #6f6c6b;
+    margin-left: 2%;
+  }
+
+  .navbar-links ul li:hover {
+    background-color: #555;
+  }
+
+  .navbar-links li a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff5e1;
+    padding: 1rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 15px;
+  }
+
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+
+  #bar-1 {
+    transform: translateY(-4px);
+  }
+
+  #bar-3 {
+    transform: translateY(4px);
+  }
+
+  .icon .bar {
+    background-color: #fff;
+  }
+
+  .icon #bar-1 {
+    width: 22px;
+    transform: translateY(4px) rotate(-45deg);
+    background: #67798e;
+  }
+
+  .icon #bar-3 {
+    width: 22px;
+    transform: translateY(-8px) rotate(45deg);
+    background: #67798e;
+  }
+
+  .icon #bar-2 {
+    display: none;
   }
 
   #top {
@@ -39,6 +161,7 @@
     text-decoration: none;
     color: #fff;
     margin: 10px 10px 10px 10px;
+    display: none;
   }
 
   #button-holder {
@@ -491,6 +614,7 @@
     margin-top: 40px;
   }
 
+  /* stylelint-disable-next-line no-descending-specificity */
   li .header-6 li {
     width: 90%;
   }
@@ -674,11 +798,20 @@
   }
 
   #toolbar {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #top {
     width: 100%;
     height: 72px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
     background-color: #3c3c3c;
   }
 
@@ -698,20 +831,12 @@
     line-height: 20px;
     color: #fff;
     text-decoration: none;
-    margin-left: 1%;
+    margin-left: 30px;
   }
 
   #heading:hover {
     transition: 1s;
     transform: rotate(360deg);
-  }
-
-  #top {
-    width: 75%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 2%;
   }
 
   #menubar {

@@ -8,12 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="toolbar">
-        <a href="#home" id="heading">Amrit Mishra</a>
-        <nav id="top">            
-            <div id="button-holder">
-                <img src="images/button.png" alt="Hamburger button" id="button">
+    <nav class="navbar">
+        <div class="brand-title"><a href="#">Amrit Mishra</a></div>
+            <a href="#" class="toggle-button" id="menu" onclick="onClickMenu()">
+                <span class="bar" id="bar-1"></span>
+                <span class="bar" id="bar-2"></span>
+                <span class="bar" id="bar-3"></span>
+            </a>
+            <div class="navbar-links" id="navbar-links">
+                <ul>
+                    <li class="links"><a href="index.html#container-1">Portfolio</a></li>
+                    <li class="links"><a href="index.html#about-container">About</a></li>
+                    <li class="links"><a href="index.html#form-section">Contact</a></li>
+                </ul>
             </div>
+        </div>
+    </nav>
+    <header id="toolbar"></header>
+        <div id="top">
+            <a href="#home" id="heading">Amrit Mishra</a>
             <div id="menubar">
                 <ul id="menu-list">
                     <li><a class="anchor" href="#">Portfolio</a></li>
@@ -22,7 +35,7 @@
                     <li><a class="anchor" href="#"><img src="images/mail.png" alt="Mail image"></a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     </header>
     <main id="content">
         <section id="container-1">
@@ -291,7 +304,7 @@
                 </div>
               </div>
         </section>
-        <section class="form-section">
+        <section class="form-section" id="form-section">
             <div class="form-content">
                 <div class="form-heading">
                     <h5 class="header-7"><strong>I'm always <br> interested in hearing <br> about new projects, <br> so if you'd like to <br> chat please get in touch.</strong></h5>
@@ -331,4 +344,5 @@
         </section>
     </main>
 </body>
+<script src="script.js" ></script>
 </html>
