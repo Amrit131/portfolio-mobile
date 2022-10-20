@@ -48,165 +48,29 @@ const section2 = document.createElement('div');
 works.appendChild(section1);
 project.appendChild(section2);
 
-section1.innerHTML = `
-    <div id="works-container">
-    <div id="header2-container">
-        <h2 id="header-2">My Recent Works</h2>
-        <hr id="line">
-    </div>
-    <div id="gymfit-container">
-        <img id="gymfit-img" src="images/gym-fit.png" alt="Gym Fit Image">
-        <div id="post-container">
-            <h3 id="header-3">Multi-Post Stories</h3>
-            <p id="stories-para">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="language" id="tech-btn">
-                <li class="btn"><button>css</button></li>
-                <li class="btn"><button>html</button></li>
-                <li class="btn"><button>bootstrap</button></li>
-                <li class="btn"><button>Ruby</button></li>
-            </ul>
-            <div id="btn-container">
-                <button id="btn" class="open">See Project</button>
-            </div>
-        </div>
-    </div>
-    </div> 
-`;
-
-section2.innerHTML = `
-    <div class="desktop-projects">
-    <div class="first-row">
-        <div class="image">
-            <p class="imgThumb">
-                <img src="images/projects-bg-1.png" alt="Project card" id="printing">
-                <span><button type="button" class="open">See Project</button></span>
-            </p>
-        </div>
-        <div class="other-projects-1 open">
-            <h4 class="heading-5">Data Dashboard Healthcare</h4>
-            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
-            <ul class="language-2" id="tech-btn-1">
-                <li class="btn-4"><button>html</button></li>
-                <li class="btn-4"><button>bootstrap</button></li>
-                <li class="btn-4"><button>Ruby</button></li>
-            </ul>
-        </div>
-        <div class="other-projects-2 open">
-            <h4 class="heading-6">Website Portfolio</h4>
-            <p class="project-detail-1">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
-            <ul class="language-1" id="tech-btn-1">
-                <li class="btn-4"><button>html</button></li>
-                <li class="btn-4"><button>bootstrap</button></li>
-                <li class="btn-4"><button>Ruby</button></li>
-            </ul>
-    </div>
-    </div>
-    <div class="second-row">
-        <div class="other-projects open">
-            <h4 class="heading-4">Professional Art Printing Data</h4>
-            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
-            <ul class="language-3" id="tech-btn-1">
-                <li class="btn-4"><button>html</button></li>
-                <li class="btn-4"><button>bootstrap</button></li>
-                <li class="btn-4"><button>Ruby</button></li>
-            </ul>
-        </div>
-        <div class="other-projects-1 open">
-            <h4 class="heading-5">Data Dashboard Healthcare</h4>
-            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
-            <ul class="language-2" id="tech-btn-1">
-                <li class="btn-4"><button>html</button></li>
-                <li class="btn-4"><button>bootstrap</button></li>
-                <li class="btn-4"><button>Ruby</button></li>
-            </ul>
-        </div>
-        <div class="other-projects-2 open">
-            <h4 class="heading-6">Website Portfolio</h4>
-            <p class="project-detail-1">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
-            <ul class="language-1" id="tech-btn-1">
-                <li class="btn-4"><button>html</button></li>
-                <li class="btn-4"><button>bootstrap</button></li>
-                <li class="btn-4"><button>Ruby</button></li>
-            </ul>
-        </div>
-    </div>  
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-    <div class="projects">
-    <h4 class="header-4">Professional Art Printing Data</h4>
-    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-    <ul class="language" id="tech-btn">
-        <li class="btn-2"><button>html</button></li>
-        <li class="btn-2"><button>bootstrap</button></li>
-        <li class="btn-2"><button>Ruby</button></li>
-    </ul>
-    <div class="btn-container">
-        <button class="btn-3 open">See Project</button>
-    </div>
-    </div>
-`;
-
 const obj = [{
-  name: ['Multi-Post Stories', 'Keeping Track of Hundreds of components website'],
+  name: ['Multi-Post Stories', 'Multi Post Stories'],
+  description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"],
+  img: 'images/project-background.png',
+  technologies: ['html', 'bootstrap', 'Ruby on Rails'],
+  live: 'https://amrit131.github.io/portfolio-mobile/',
+  source: 'https://github.com/Amrit131/portfolio-mobile',
+}, {
+  name: ['Data Dashboard Healthcare', 'Data Dashboard Healthcare'],
+  description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"],
+  img: 'images/project-background.png',
+  technologies: ['html', 'bootstrap', 'Ruby on Rails'],
+  live: 'https://amrit131.github.io/portfolio-mobile/',
+  source: 'https://github.com/Amrit131/portfolio-mobile',
+}, {
+  name: ['Professional Art', 'Professional Art website'],
+  description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"],
+  img: 'images/project-background.png',
+  technologies: ['html', 'bootstrap', 'Ruby on Rails'],
+  live: 'https://amrit131.github.io/portfolio-mobile/',
+  source: 'https://github.com/Amrit131/portfolio-mobile',
+}, {
+  name: ['Website Portfolio', 'Website Portfolio'],
   description: ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"],
   img: 'images/project-background.png',
   technologies: ['html', 'bootstrap', 'Ruby on Rails'],
@@ -226,6 +90,165 @@ for (let i = 0; i < open.length; i++) {
           <div class="post-container">
               <h3 class= "header-3">${obj[0].name[0]}</h3>
               <h3 class= header3>${obj[0].name[1]}</h3>
+              <a class= "close-btn" href= "#">
+                  <span class= "close-bar" id= "bar1"></span>
+                  <span class= "close-bar" id= "bar2"></span>
+              </a>
+              <ul id="tech-btn1">
+                  <li class="bttn"><button>${obj[0].technologies[0]}</button></li>
+                  <li class="bttn" ><button>${obj[0].technologies[1]}</button></li>
+                  <li class="bttn" ><button>${obj[0].technologies[2]}</button></li>
+              </ul>
+              <div class="pop-up-desktop">
+                  <img class="gymfit-img" src="${obj[0].img}" alt="Gym Fit Image">
+                  <div class = "para-button">
+                      <p class="stories-para">${obj[0].description[0]}</p>
+                      <p class="stories-para1">${obj[0].description[1]}</p>
+                      <div class="btn-container1">
+                          <a href= ${obj[0].live} ><button class= "close" id="btn1" type= "button">See Live <img id= "icon-img" src= "images/see-live-icon.png"></button></a>
+                          <a href= ${obj[0].source} ><button class= "close" id="btn2" type= "button">Source code <img id= "icon-img" src= "images/source-icon.png"></button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          `;
+
+    works.classList.toggle('act');
+    body.classList.toggle('act');
+    content.classList.toggle('act');
+    nav.classList.toggle('act');
+    main.appendChild(popup);
+    body.appendChild(main);
+
+    const close = document.querySelector('.close-btn');
+    close.addEventListener('click', () => {
+      body.removeChild(main);
+      body.classList.remove('act');
+      works.classList.remove('act');
+      content.classList.remove('act');
+      nav.classList.remove('act');
+    });
+  });
+}
+
+const open1 = document.getElementsByClassName('open1');
+for (let i = 0; i < open1.length; i++) {
+  open1[i].addEventListener('click', () => {
+    const main = document.createElement('div');
+    main.className = 'main';
+    const popup = document.createElement('div');
+    popup.className = 'pop-up';
+    popup.innerHTML = `
+          <div class="gymfit-container">
+          <div class="post-container">
+              <h3 class= "header-3">${obj[1].name[0]}</h3>
+              <h3 class= header3>${obj[1].name[1]}</h3>
+              <a class= "close-btn" href= "#">
+                  <span class= "close-bar" id= "bar1"></span>
+                  <span class= "close-bar" id= "bar2"></span>
+              </a>
+              <ul id="tech-btn1">
+                  <li class="bttn"><button>${obj[1].technologies[0]}</button></li>
+                  <li class="bttn" ><button>${obj[1].technologies[1]}</button></li>
+                  <li class="bttn" ><button>${obj[1].technologies[2]}</button></li>
+              </ul>
+              <div class="pop-up-desktop">
+                  <img class="gymfit-img" src="${obj[1].img}" alt="Gym Fit Image">
+                  <div class = "para-button">
+                      <p class="stories-para">${obj[1].description[0]}</p>
+                      <p class="stories-para1">${obj[1].description[1]}</p>
+                      <div class="btn-container1">
+                          <a href= ${obj[0].live} ><button class= "close" id="btn1" type= "button">See Live <img id= "icon-img" src= "images/see-live-icon.png"></button></a>
+                          <a href= ${obj[0].source} ><button class= "close" id="btn2" type= "button">Source code <img id= "icon-img" src= "images/source-icon.png"></button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          `;
+
+    works.classList.toggle('act');
+    body.classList.toggle('act');
+    content.classList.toggle('act');
+    nav.classList.toggle('act');
+    main.appendChild(popup);
+    body.appendChild(main);
+
+    const close = document.querySelector('.close-btn');
+    close.addEventListener('click', () => {
+      body.removeChild(main);
+      body.classList.remove('act');
+      works.classList.remove('act');
+      content.classList.remove('act');
+      nav.classList.remove('act');
+    });
+  });
+}
+
+const open2 = document.getElementsByClassName('open2');
+for (let i = 0; i < open2.length; i++) {
+  open2[i].addEventListener('click', () => {
+    const main = document.createElement('div');
+    main.className = 'main';
+    const popup = document.createElement('div');
+    popup.className = 'pop-up';
+    popup.innerHTML = `
+          <div class="gymfit-container">
+          <div class="post-container">
+              <h3 class= "header-3">${obj[3].name[0]}</h3>
+              <h3 class= header3>${obj[3].name[1]}</h3>
+              <a class= "close-btn" href= "#">
+                  <span class= "close-bar" id= "bar1"></span>
+                  <span class= "close-bar" id= "bar2"></span>
+              </a>
+              <ul id="tech-btn1">
+                  <li class="bttn"><button>${obj[0].technologies[0]}</button></li>
+                  <li class="bttn" ><button>${obj[0].technologies[1]}</button></li>
+                  <li class="bttn" ><button>${obj[0].technologies[2]}</button></li>
+              </ul>
+              <div class="pop-up-desktop">
+                  <img class="gymfit-img" src="${obj[0].img}" alt="Gym Fit Image">
+                  <div class = "para-button">
+                      <p class="stories-para">${obj[0].description[0]}</p>
+                      <p class="stories-para1">${obj[0].description[1]}</p>
+                      <div class="btn-container1">
+                          <a href= ${obj[0].live} ><button class= "close" id="btn1" type= "button">See Live <img id= "icon-img" src= "images/see-live-icon.png"></button></a>
+                          <a href= ${obj[0].source} ><button class= "close" id="btn2" type= "button">Source code <img id= "icon-img" src= "images/source-icon.png"></button></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          `;
+
+    works.classList.toggle('act');
+    body.classList.toggle('act');
+    content.classList.toggle('act');
+    nav.classList.toggle('act');
+    main.appendChild(popup);
+    body.appendChild(main);
+
+    const close = document.querySelector('.close-btn');
+    close.addEventListener('click', () => {
+      body.removeChild(main);
+      body.classList.remove('act');
+      works.classList.remove('act');
+      content.classList.remove('act');
+      nav.classList.remove('act');
+    });
+  });
+}
+
+const open3 = document.getElementsByClassName('open3');
+for (let i = 0; i < open3.length; i++) {
+  open3[i].addEventListener('click', () => {
+    const main = document.createElement('div');
+    main.className = 'main';
+    const popup = document.createElement('div');
+    popup.className = 'pop-up';
+    popup.innerHTML = `
+          <div class="gymfit-container">
+          <div class="post-container">
+              <h3 class= "header-3">${obj[2].name[0]}</h3>
+              <h3 class= header3>${obj[2].name[1]}</h3>
               <a class= "close-btn" href= "#">
                   <span class= "close-bar" id= "bar1"></span>
                   <span class= "close-bar" id= "bar2"></span>
