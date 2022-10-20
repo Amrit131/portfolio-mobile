@@ -42,6 +42,168 @@ const body = document.querySelector('body');
 const works = document.querySelector('.works');
 const content = document.querySelector('.content');
 const nav = document.querySelector('.navbar');
+const section1 = document.createElement('div');
+const project = document.querySelector('.project-contain');
+const section2 = document.createElement('div');
+works.appendChild(section1);
+project.appendChild(section2);
+
+section1.innerHTML = `
+    <div id="works-container">
+    <div id="header2-container">
+        <h2 id="header-2">My Recent Works</h2>
+        <hr id="line">
+    </div>
+    <div id="gymfit-container">
+        <img id="gymfit-img" src="images/gym-fit.png" alt="Gym Fit Image">
+        <div id="post-container">
+            <h3 id="header-3">Multi-Post Stories</h3>
+            <p id="stories-para">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            <ul class="language" id="tech-btn">
+                <li class="btn"><button>css</button></li>
+                <li class="btn"><button>html</button></li>
+                <li class="btn"><button>bootstrap</button></li>
+                <li class="btn"><button>Ruby</button></li>
+            </ul>
+            <div id="btn-container">
+                <button id="btn" class="open">See Project</button>
+            </div>
+        </div>
+    </div>
+    </div> 
+`;
+
+section2.innerHTML = `
+    <div class="desktop-projects">
+    <div class="first-row">
+        <div class="image">
+            <p class="imgThumb">
+                <img src="images/projects-bg-1.png" alt="Project card" id="printing">
+                <span><button type="button" class="open">See Project</button></span>
+            </p>
+        </div>
+        <div class="other-projects-1 open">
+            <h4 class="heading-5">Data Dashboard Healthcare</h4>
+            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
+            <ul class="language-2" id="tech-btn-1">
+                <li class="btn-4"><button>html</button></li>
+                <li class="btn-4"><button>bootstrap</button></li>
+                <li class="btn-4"><button>Ruby</button></li>
+            </ul>
+        </div>
+        <div class="other-projects-2 open">
+            <h4 class="heading-6">Website Portfolio</h4>
+            <p class="project-detail-1">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
+            <ul class="language-1" id="tech-btn-1">
+                <li class="btn-4"><button>html</button></li>
+                <li class="btn-4"><button>bootstrap</button></li>
+                <li class="btn-4"><button>Ruby</button></li>
+            </ul>
+    </div>
+    </div>
+    <div class="second-row">
+        <div class="other-projects open">
+            <h4 class="heading-4">Professional Art Printing Data</h4>
+            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
+            <ul class="language-3" id="tech-btn-1">
+                <li class="btn-4"><button>html</button></li>
+                <li class="btn-4"><button>bootstrap</button></li>
+                <li class="btn-4"><button>Ruby</button></li>
+            </ul>
+        </div>
+        <div class="other-projects-1 open">
+            <h4 class="heading-5">Data Dashboard Healthcare</h4>
+            <p class="project-detail">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
+            <ul class="language-2" id="tech-btn-1">
+                <li class="btn-4"><button>html</button></li>
+                <li class="btn-4"><button>bootstrap</button></li>
+                <li class="btn-4"><button>Ruby</button></li>
+            </ul>
+        </div>
+        <div class="other-projects-2 open">
+            <h4 class="heading-6">Website Portfolio</h4>
+            <p class="project-detail-1">A daily selection of privately personalized <br> reads; no accounts or sign-ups required <br> has been the industry's standard</p>
+            <ul class="language-1" id="tech-btn-1">
+                <li class="btn-4"><button>html</button></li>
+                <li class="btn-4"><button>bootstrap</button></li>
+                <li class="btn-4"><button>Ruby</button></li>
+            </ul>
+        </div>
+    </div>  
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+    <div class="projects">
+    <h4 class="header-4">Professional Art Printing Data</h4>
+    <p class="project-details">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+    <ul class="language" id="tech-btn">
+        <li class="btn-2"><button>html</button></li>
+        <li class="btn-2"><button>bootstrap</button></li>
+        <li class="btn-2"><button>Ruby</button></li>
+    </ul>
+    <div class="btn-container">
+        <button class="btn-3 open">See Project</button>
+    </div>
+    </div>
+`;
 
 const obj = [{
   name: ['Multi-Post Stories', 'Keeping Track of Hundreds of components website'],
