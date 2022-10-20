@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* @media screen and (max-width: 600px) and (min-width: 120px) {
+ @media screen and (max-width: 600px) and (min-width: 120px) {
   body {
     margin: 0;
     padding: 0;
@@ -159,7 +159,7 @@
 
   #menubar {
     display: none;
-  } */
+  } 
 
   #button-holder {
     display: flex;
