@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* @media screen and (max-width: 600px) and (min-width: 120px) {
+@media screen and (max-width: 600px) and (min-width: 120px) {
   body {
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-  } */
+  }
 
   .toggle-button {
     position: absolute;
