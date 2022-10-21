@@ -293,7 +293,6 @@ for (let i = 0; i < open3.length; i++) {
 }
 
 // form validation
-
 // eslint-disable-next-line no-unused-vars
 function validation() {
   const form = document.getElementById('form');
@@ -326,7 +325,7 @@ if (input) {
   messageField.value = input.message;
 }
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('change', (event) => {
   event.preventDefault();
 
   const name = nameField.value.trim();
