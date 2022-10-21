@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable object-shorthand */
+/* eslint-disable linebreak-style */
 /* eslint-disable no-plusplus */
 // eslint-disable-next-line no-unused-vars
 function onClickMenu() {
@@ -291,7 +293,6 @@ for (let i = 0; i < open3.length; i++) {
 }
 
 // form validation
-
 // eslint-disable-next-line no-unused-vars
 function validation() {
   const form = document.getElementById('form');
@@ -303,9 +304,39 @@ function validation() {
     document.getElementById('btn-form').type = 'submit';
     text.innerHTML = '';
   } else {
-    form.classList.remove('valid');
+    // form.classList.remove('valid');
     form.classList.add('invalid');
     document.getElementById('btn-form').type = 'button';
     text.innerHTML = '* Your email is invalid. (make sure your email is in lower cases)';
   }
 }
+
+// Local Storage
+const form = document.getElementById('form');
+const nameField = document.getElementById('name');
+const emailField = document.getElementById('email');
+const messageField = document.getElementById('msg');
+
+const input = JSON.parse(localStorage.getItem('inputs'));
+
+if (input) {
+  nameField.value = input.name;
+  emailField.value = input.email;
+  messageField.value = input.message;
+}
+
+form.addEventListener('change', (event) => {
+  event.preventDefault();
+
+  const name = nameField.value.trim();
+  const email = emailField.value.trim();
+  const message = messageField.value.trim();
+
+  const obj1 = {
+    name: name,
+    email: email,
+    message: message,
+  };
+
+  localStorage.setItem('inputs', JSON.stringify(obj1));
+});
