@@ -877,6 +877,13 @@
     align-items: center;
   }
 
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   #form {
     display: flex;
     flex-direction: column;
@@ -890,8 +897,9 @@
     width: 90%;
     height: 48px;
     border: none;
-    color: #979493;
+    color: #3c3a39;
     border-bottom: solid 1px #dbd8d7;
+    font-weight: 700;
   }
 
   #msg {
@@ -922,6 +930,17 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
+  }
+
+  #text {
+    color: red;
+    transition: 0.3s ease;
+    font-weight: 700;
+    width: 90%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
   }
 
   #btn-form:hover {
@@ -2040,7 +2059,7 @@
     width: 92%;
     height: 50px;
     border: none;
-    color: #fbf8f7;
+    color: #3c3a39;
     border-bottom: solid 1px #dbd8d7;
   }
 
@@ -2073,6 +2092,17 @@
     letter-spacing: 0.03em;
     margin: 0;
     padding-left: 15px;
+  }
+
+  #text {
+    color: red;
+    transition: 0.3s ease;
+    font-weight: 700;
+    width: 90%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
   }
 
   #btn-form:hover {

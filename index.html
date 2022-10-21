@@ -313,11 +313,12 @@
                     <h5 class="header-7"><strong>I'm always interested <br> in hearing about new <br> projects, so if you'd <br> like to chat please get in touch.</strong></h5>
                 </div>
                 <div class="form-container">
-                    <form action="https://formspree.io/f/mnqrdlzl" id="form" method="POST">
+                    <form action="https://formspree.io/f/mnqrdlzl"  id="form" method="POST">
                         <input type="text" class="input" maxlength="30" name="name" placeholder="Full name" required>
-                        <input type="email" class="input" name="email" placeholder="Email address" required>
+                        <input type="email" id="email" class="input" name="email" placeholder="Email address" required>
                         <textarea name="message" id="msg" rows="10" placeholder="Enter text here" required maxlength="500"></textarea>
-                        <button type="submit" id="btn-form">Get in touch</button>
+                        <span id="text"></span>
+                        <button type="button" id="btn-form" onclick="validation()">Get in touch</button>
                     </form>
                 </div>
             </div>

@@ -289,3 +289,23 @@ for (let i = 0; i < open3.length; i++) {
     });
   });
 }
+
+// form validation
+
+// eslint-disable-next-line no-unused-vars
+function validation() {
+  const form = document.getElementById('form');
+  const email = document.getElementById('email').value;
+  const text = document.getElementById('text');
+  // eslint-disable-next-line no-useless-escape
+  const pattern = /^([a-z0-9\._]+)@([a-z0-9\.])+([a-z]+)(.[a-z]+)?$/;
+  if (email.match(pattern)) {
+    document.getElementById('btn-form').type = 'submit';
+    text.innerHTML = '';
+  } else {
+    form.classList.remove('valid');
+    form.classList.add('invalid');
+    document.getElementById('btn-form').type = 'button';
+    text.innerHTML = '* Your email is invalid. (make sure your email is in lower cases)';
+  }
+}
